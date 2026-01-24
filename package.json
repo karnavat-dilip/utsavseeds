@@ -1,0 +1,31 @@
+{
+  "name": "utsav-seeds-website",
+  "version": "1.0.0",
+  "description": "Professional corporate website for UTSAV SEEDS Pvt. Ltd.",
+  "scripts": {
+    "dev": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-all": "cd frontend && npm install && cd ../api && npm install",
+    "start-api": "cd api && node server.js"
+  },
+  "keywords": [
+    "react",
+    "agriculture",
+    "seeds",
+    "corporate"
+  ],
+  "author": "UTSAV SEEDS Pvt. Ltd.",
+  "license": "ISC"
+}
+
+
+
+
+
+
+
+
+
+
+
+
