@@ -1113,7 +1113,7 @@ body {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 768px) {
   .hero-banner-slider {
     min-height: 100vh;
     height: 100vh;
@@ -6496,8 +6496,8 @@ body {
   }
 }
 
-/* Extra Small Devices (320px - 360px) */
-@media (max-width: 360px) {
+/* Extra Small Devices (320px - 768px) */
+@media (max-width: 768px) {
   .product-page-top-title {
     font-size: 1rem;
     padding: 0.2rem 0;
@@ -6524,6 +6524,9 @@ body {
 
   .container {
     padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .product-detail-main-content,
