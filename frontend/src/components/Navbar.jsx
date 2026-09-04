@@ -178,6 +178,7 @@ const Navbar = () => {
                         <li><Link to="/products/green-gram" onClick={closeMobileMenu}>Green Gram (Moong)</Link></li>
                         <li><Link to="/products/black-gram" onClick={closeMobileMenu}>Black Gram (Urad)</Link></li>
                         <li><Link to="/products/guar" onClick={closeMobileMenu}>Guar gum</Link></li>
+                        <li><Link to="/products/pigeon-pea" onClick={closeMobileMenu}>Pigeon Pea (Tur)</Link></li>
                       </ul>
                     </div>
                     <div className="dropdown-category-group">

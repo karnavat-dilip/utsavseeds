@@ -6,7 +6,6 @@ import 'aos/dist/aos.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import '../styles/main.css';
-import MUSATRDSUNHARI1919 from '../assets/MUSATRD SUNHARI 19-19.png';
 import MUSTARDRAJ31 from '../assets/MUSTARD RAJ 31.png';
 import MUSTARDTHINGUJI100 from '../assets/MUSTARD THINGUJI 100.png';
 import MUSTARDUTSAV21 from '../assets/MUSTARD UTSAV 21.png';
@@ -20,105 +19,102 @@ const MustardProductPage = () => {
   }, []);
 
   const mustardProducts = [
-
     {
       id: 1,
-      name: 'MUSTARD RAJ 31',
-      image: MUSTARDRAJ31,
-      description: [
-        'Maturity duration 90 to 95 days ',
-        'Plant height 95 to 105 cms ',
-        'No. of primary branches 7 to 8 ',
-        'No. of siliqua / main branch 50-55 ',
-        'Siliqua length 5 to 6 cm ',
-        'Seed shape round, bold and yellow colour ',
-        'Av.no of seed / siliqua 15-18 ',
-        'Tolerant to powdery mildew ',
-        'Non shattering at maturity',
-
-      ]
-    },
-    {
-      id: 2,
-      name: 'MUSTARD THINGUJI 100',
-      image: MUSTARDTHINGUJI100,
-      description: [
-        'Maturity duration 90 to 95 days ',
-        'Plant height 95 to 105 cms ',
-        'No. of primary branches 7 to 8 ',
-        'No. of siliqua / main branch 50-55 ',
-        'Siliqua length 5 to 6 cm ',
-        'Seed shape round, bold and yellow colour ',
-        'Av.no of seed / siliqua 15-18 ',
-        'Tolerant to powdery mildew ',
-        'Non shattering at maturity',
-      ]
-    },
-    {
-      id: 3,
-      name: 'MUSTARD UTSAV 21',
-      image: MUSTARDUTSAV21,
-      description: [
-        'Maturity duration 90 to 95 days ',
-        'Plant height 95 to 105 cms ',
-        'No. of primary branches 7 to 8 ',
-        'No. of siliqua / main branch 50-55 ',
-        'Siliqua length 5 to 6 cm ',
-        'Seed shape round, bold and yellow colour ',
-        'Av.no of seed / siliqua 15-18 ',
-        'Tolerant to powdery mildew ',
-        'Non shattering at maturity',
-      ]
-    },
-    {
-      id: 4,
-      name: 'MUSTARD UTSAV 51',
-      image: MUSTARDUTSAV51,
-      description: [
-        'Maturity duration 90 to 95 days ',
-        'Plant height 95 to 105 cms ',
-        'No. of primary branches 7 to 8 ',
-        'No. of siliqua / main branch 50-55 ',
-        'Siliqua length 5 to 6 cm ',
-        'Seed shape round, bold and yellow colour ',
-        'Av.no of seed / siliqua 15-18 ',
-        'Tolerant to powdery mildew ',
-        'Non shattering at maturity',
-      ]
-    },
-    {
-      id: 5,
-      name: 'U.M.4555',
-      image: UM4555,
-      description: [
-        'Maturity duration 115 to 120 days ',
-        'Plant height 180 to 195 cms ',
-        'No. of primary branches 7 to 8 ',
-        'No. of siliqua / main branch 50-55 ',
-        'Siliqua length 5 to 6 cm ',
-        'Seed shape round, bold and black ',
-        'Av.no of seed / siliqua 18-20 ',
-        'Tolerant to powdery mildew ',
-        'Non shattering at maturity',
-
-      ]
-    },
-    {
-      id: 6,
       name: 'U.M.4545',
       image: UM4545,
       description: [
-        'Maturity duration 115 to 120 days ',
-        'Plant height 180 to 195 cms ',
-        'No. of primary branches 7 to 8 ',
-        'No. of siliqua / main branch 50-55 ',
-        'Siliqua length 5 to 6 cm ',
-        'Seed shape round, bold and black ',
-        'Av.no of seed / siliqua 18-20 ',
-        'Tolerant to powdery mildew ',
+        'Maturity duration 105 to 110 days',
+        'Seed shape round, bold and black',
+        'No. of primary branches 8 to 10',
+        'No. of siliqua / main branch 50-75',
+        'Av.no of seed / siliqua 20-22',
+        'Plant height 150 to 180 cm',
+        'Siliqua length 5 to 6 cm',
+        'Tolerant to powdery mildew',
         'Non shattering at maturity',
-      ]
-    }
+      ],
+    },
+    {
+      id: 2,
+      name: 'U.M.4555',
+      image: UM4555,
+      description: [
+        'Maturity duration 115 to 120 days',
+        'No. of primary branches 7 to 8',
+        'Plant height 180 to 195 cms',
+        'Seed shape round, bold and black',
+        'Siliqua length 5 to 6 cm',
+        'No. of siliqua / main branch 50-55',
+        'Av.no of seed / siliqua 18-20',
+        'Tolerant to powdery mildew',
+        'Non shattering at maturity',
+      ],
+    },
+    {
+      id: 3,
+      name: 'MUSTARD RAJ-31',
+      image: MUSTARDRAJ31,
+      description: [
+        'Maturity duration 95 to 105 days',
+        'Plant height 95 to 105 cm',
+        'No. of primary branches 7 to 8',
+        'Seed shape round, bold and yellow colour',
+        'Siliqua length 5 to 6 cm',
+        'No. of siliqua / main branch 50-55',
+        'Av.no of seed / siliqua 15-18',
+        'Tolerant to powdery mildew',
+        'Non shattering at maturity',
+      ],
+    },
+    {
+      id: 4,
+      name: 'MUSTARD THINGUJI-100',
+      image: MUSTARDTHINGUJI100,
+      description: [
+        'Maturity duration 90 to 95 days',
+        'Plant height 70 to 80 cm',
+        'No. of primary branches 7 to 8',
+        'Seed shape round, bold and yellow colour',
+        'Siliqua length 5 to 6 cm',
+        'No. of siliqua / main branch 50-55',
+        'Av.no of seed / siliqua 15-18',
+        'Tolerant to powdery mildew',
+        'Non shattering at maturity',
+      ],
+    },
+    {
+      id: 5,
+      name: 'MUSTARD UTSAV-21',
+      image: MUSTARDUTSAV21,
+      description: [
+        'Maturity duration 110 to 120 days',
+        'Plant height 100 to 110 cm',
+        'No. of primary branches 7 to 8',
+        'Seed shape round, bold and yellow colour',
+        'Siliqua length 5 to 6 cm',
+        'No. of siliqua / main branch 50-55',
+        'Av.no of seed / siliqua 15-18',
+        'Tolerant to powdery mildew',
+        'Non shattering at maturity',
+      ],
+    },
+    {
+      id: 6,
+      name: 'MUSTARD UTSAV-51',
+      image: MUSTARDUTSAV51,
+      description: [
+        'Maturity duration 90 to 100 days',
+        'Plant height 80 to 90 cm',
+        'No. of primary branches 7 to 8',
+        'Seed shape round, bold and yellow colour',
+        'Siliqua length 5 to 6 cm',
+        'No. of siliqua / main branch 50-55',
+        'Av.no of seed / siliqua 15-18',
+        'Tolerant to powdery mildew',
+        'Non shattering at maturity',
+      ],
+    },
   ];
 
   return (

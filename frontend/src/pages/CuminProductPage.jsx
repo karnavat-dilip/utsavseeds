@@ -17,26 +17,31 @@ const CuminProductPage = () => {
 
   const cuminProducts = [
     {
-      id: 1, name: 'Manek CUMIN', image: UTSAVCUMIN, description: [
-        'Semi-spreding type plant ',
-        'Plant height 30-35 cm ',
-        'High no. of umbels & umbeletes ',
-        'More yield then other varieties ',
-        'High aroma & oil content ',
-        'Days to maturity 115-120 ',
-        'Resistant to blight & tolerant to wilt disease',
-
-      ]
+      id: 1,
+      name: 'VRUNDA',
+      image: VRUNDACUMIN,
+      description: [
+        'Plant habit bushy & basal branching',
+        'Plant height 24-30 cm',
+        'Tolerent to blight & wilt disease',
+        'Days of maturity 110-115',
+        'High no. of umbels & umbeletes',
+      ],
     },
     {
-      id: 2, name: 'VRUNDA CUMIN', image: VRUNDACUMIN, description: ['Semi-spreding type plant ',
-        'Plant height 30-35 cm ',
-        'High no. of umbels & umbeletes ',
-        'More yield then other varieties ',
-        'High aroma & oil content ',
-        'Days to maturity 115-120 ',
-        'Resistant to blight & tolerant to wilt disease',]
-    }
+      id: 2,
+      name: 'MANEK',
+      image: UTSAVCUMIN,
+      description: [
+        'Semi-spreding type plant',
+        'More yield then other varieties',
+        'Plant height 30-35 cm',
+        'High no. of umbels & umbeletes',
+        'High aroma & oil content',
+        'Days to maturity 115-120',
+        'Resistant to blight & tolerant to wilt disease',
+      ],
+    },
   ];
 
   return (

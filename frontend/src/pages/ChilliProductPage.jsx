@@ -16,14 +16,13 @@ const ChilliProductPage = () => {
 
   const chilliProducts = [
     {
-      id: 1, name: 'CHILI KRIMA', image: CHILIKRIMA, description: [
-        'Plant : Erect and vigorous ',
-        'Fruit : Attractive green,   10-12 cm long with 2.0-2.5 cm dia.',
-        'Fruit type : Thick wall fruits with   medium pungency ',
-        'Fruits having good self life ',
+      id: 1, name: 'KRIMA', image: CHILIKRIMA, description: [
+        'Plant : Erect and vigorous',
+        'Fruits having good self life',
+        'Fruit type : Thick wall fruits with medium pungency',
+        'Fruit : Attractive green, 10-12 cm long with 2.0-2.5 cm dia.',
         'Harvesting : 55-60 days from planting',
         'Suitable for dual purpose',
-
       ]
     }
   ];

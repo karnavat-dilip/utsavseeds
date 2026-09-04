@@ -8,7 +8,6 @@ import Footer from '../components/Footer';
 import '../styles/main.css';
 import MUNGMEGA from '../assets/MUNG MEGA.png';
 import MUNGVINAYAK from '../assets/MUNG VINAYAK.png';
-import URJAMUNG from '../assets/URJA MUNG.png';
 
 const GreenGramProductPage = () => {
   useEffect(() => {
@@ -18,15 +17,32 @@ const GreenGramProductPage = () => {
 
   const greenGramProducts = [
     {
-      id: 1, name: 'MUNG VINAYAK', image: MUNGVINAYAK, description: ['Plant habit semi-spreding type ',
-        'Days of maturity 75 to 80 days ',
-        'Plant height 55 to 60 cms ',
-        'No. of grain per pod 11 to 13 ',
-        'Avg. pod length 13 to 14 cms ',
-        'Grain shiny, bold and green ',
-        'Recommended for kharif & rabi ',
+      id: 1,
+      name: 'VINAYAK',
+      image: MUNGVINAYAK,
+      description: [
+        'Plant habit determinate',
+        'Seed colour green and shiny',
+        'Length of pod 9-10 cm',
+        'Days of maturity 65-70 days',
+        'Seed size bold',
         'Tolerant to yellow mosaic',
-      ]
+      ],
+    },
+    {
+      id: 2,
+      name: 'VINAYAK GOLD',
+      image: MUNGMEGA,
+      description: [
+        'Plant habit semi-spreding type',
+        'Grain shiny, bold and green',
+        'Plant height 55 to 60 cms',
+        'Recommended for kharif & rabi',
+        'Avg. pod length 13 to 14 cms',
+        'Days of maturity 75 to 80 days',
+        'No. of grain per pod 11 to 13',
+        'Tolerant to yellow mosaic',
+      ],
     },
   ];
 

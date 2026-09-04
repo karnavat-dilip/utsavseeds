@@ -19,7 +19,8 @@ const PulseSeedsPage = () => {
     const productRoutes = {
       'Green Gram (Moong)': '/products/green-gram',
       'Black Gram (Urad)': '/products/black-gram',
-      'Guar Gum': '/products/guar'
+      'Guar Gum': '/products/guar',
+      'Pigeon Pea (Tur)': '/products/pigeon-pea',
     };
     
     if (productRoutes[productName]) {
@@ -42,6 +43,11 @@ const PulseSeedsPage = () => {
       name: 'Guar Gum',
       mainImage: 'https://www.boeschbodenspies.com/wp-content/uploads/hero-guar-gum.jpg',
       seedImage: 'https://www.nexira.com/wp-content/uploads/2022/08/guar-process_swooms.png'
+    },
+    {
+      name: 'Pigeon Pea (Tur)',
+      mainImage: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+      seedImage: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
     }
   ];
 
@@ -98,7 +104,7 @@ const PulseSeedsPage = () => {
                     transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
                     whileHover={{ y: -10, boxShadow: '0 15px 40px rgba(0,0,0,0.15)' }}
                     onClick={() => handleProductClick(product.name)}
-                    style={{ cursor: ['Green Gram (Moong)', 'Black Gram (Urad)', 'Guar Gum'].includes(product.name) ? 'pointer' : 'default' }}
+                    style={{ cursor: ['Green Gram (Moong)', 'Black Gram (Urad)', 'Guar Gum', 'Pigeon Pea (Tur)'].includes(product.name) ? 'pointer' : 'default' }}
                   >
                     <div className="product-showcase-image-wrapper">
                       <img 
@@ -121,11 +127,12 @@ const PulseSeedsPage = () => {
                       </div>
                     </div>
                     <h3 className="product-showcase-name">{product.name}</h3>
-                    {['Green Gram (Moong)', 'Black Gram (Urad)', 'Guar Gum'].includes(product.name) && (
+                    {['Green Gram (Moong)', 'Black Gram (Urad)', 'Guar Gum', 'Pigeon Pea (Tur)'].includes(product.name) && (
                       <Link 
                         to={
                           product.name === 'Green Gram (Moong)' ? '/products/green-gram' :
                           product.name === 'Black Gram (Urad)' ? '/products/black-gram' :
+                          product.name === 'Pigeon Pea (Tur)' ? '/products/pigeon-pea' :
                           '/products/guar'
                         } 
                         className="view-more-link" 
@@ -134,7 +141,7 @@ const PulseSeedsPage = () => {
                         View More <span>→</span>
                       </Link>
                     )}
-                    {!['Green Gram (Moong)', 'Black Gram (Urad)', 'Guar Gum'].includes(product.name) && (
+                    {!['Green Gram (Moong)', 'Black Gram (Urad)', 'Guar Gum', 'Pigeon Pea (Tur)'].includes(product.name) && (
                       <div className="view-more-link" style={{ opacity: 0.5, cursor: 'not-allowed' }}>
                         Coming Soon
                       </div>

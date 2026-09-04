@@ -5,7 +5,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Megha from '../assets/Megha.png'
+import Megha from '../assets/Megha.png';
+import MUNGMEGA from '../assets/MUNG MEGA.png';
 import '../styles/main.css';
 
 const GenericProductPage = () => {
@@ -32,21 +33,47 @@ const GenericProductPage = () => {
 
   const displayName = productNames[productName] || productName;
 
-  const products = [
+  const productsByRoute = {
+    cowpea: [
+      {
+        id: 1,
+        name: 'MEGHA',
+        image: Megha,
+        description: [
+          'Plant habit determinate',
+          'Pod medium Long, green & smooth',
+          'Length of pod 15-20 cms',
+          'First Picking days 55-60 days',
+          'Seed colour offwhite',
+          'Recommended for summer & Kharif',
+        ],
+      },
+      {
+        id: 2,
+        name: 'KIARA',
+        image: MUNGMEGA,
+        description: [
+          'Plant habit determinate',
+          'Pod long, Lite green & smooth',
+          'Length of pod 18-22 cm',
+          'First Picking days 55-60 days',
+          'Seed colour off white',
+          'Recommended for kharif & Summer',
+        ],
+      },
+    ],
+  };
+
+  const products = productsByRoute[productName] || [
     {
       id: 1,
-      name: `Megha`,
+      name: displayName,
       image: Megha,
       description: [
-        'Plant habit determinate ',
-'First Picking days 55-60 days ',
-'Length of pod 15-20 cms ',
-'Pod medium Long, green & smooth',
- 'Seed colour offwhite ',
-'Recommended for summer',
-
-      ]
-    }
+        'High quality seeds from Utsav Seeds Pvt. Ltd.',
+        'Contact us for more product details.',
+      ],
+    },
   ];
 
   return (

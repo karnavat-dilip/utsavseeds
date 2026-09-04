@@ -22,6 +22,7 @@ import BajraProductPage from './pages/BajraProductPage';
 import GreenGramProductPage from './pages/GreenGramProductPage';
 import BlackGramProductPage from './pages/BlackGramProductPage';
 import GuarProductPage from './pages/GuarProductPage';
+import PigeonPeaProductPage from './pages/PigeonPeaProductPage';
 import CuminProductPage from './pages/CuminProductPage';
 import FennelProductPage from './pages/FennelProductPage';
 import IsabgolProductPage from './pages/IsabgolProductPage';
@@ -61,6 +62,7 @@ function App() {
         <Route path="/products/green-gram" element={<GreenGramProductPage />} />
         <Route path="/products/black-gram" element={<BlackGramProductPage />} />
         <Route path="/products/guar" element={<GuarProductPage />} />
+        <Route path="/products/pigeon-pea" element={<PigeonPeaProductPage />} />
         <Route path="/products/cumin" element={<CuminProductPage />} />
         <Route path="/products/fennel" element={<FennelProductPage />} />
         <Route path="/products/isabgol" element={<IsabgolProductPage />} />

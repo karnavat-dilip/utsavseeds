@@ -20,13 +20,12 @@ const SesameProductPage = () => {
       name: 'TIL SIDDHI',
       image: TILSIDHHI,
       description: [
-        'Plant height 90-100 cms ',
-        'No. of effective branches 4 to 5 ',
-        'Capsule arrangement single-opposite ',
-        'Seed size bold ',
-        'Seed colour white ',
-        'Duration 78-82 days',
-
+        'Plant height 100-110 cm',
+        'No. of effective branches 4 to 6',
+        'Seed colour white',
+        'Seed size medium',
+        'Capsule arrangement in cluster',
+        'Duration 80-85 days',
       ]
     }
   ];

@@ -5859,8 +5859,7 @@ body {
 .seeds-slider-container {
   position: relative;
   max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 60px;
+  padding: 0 0;
 }
 
 .seeds-slider-wrapper {
@@ -5893,7 +5892,7 @@ body {
 }
 
 .product-image {
-  width: 100%;
+  
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
@@ -6028,10 +6027,6 @@ body {
     margin-bottom: 3rem;
   }
 
-  .seeds-slider-container {
-    padding: 0 50px;
-  }
-
   .seeds-slider {
     gap: 1.5rem;
   }
@@ -6057,10 +6052,6 @@ body {
   .seeds-range-title {
     font-size: 1.8rem;
     margin-bottom: 2.5rem;
-  }
-
-  .seeds-slider-container {
-    padding: 0 45px;
   }
 
   .seeds-slider {
@@ -6097,9 +6088,6 @@ body {
     font-size: 1.5rem;
   }
 
-  .seeds-slider-container {
-    padding: 0 40px;
-  }
 
   .product-image-container {
     height: 280px;

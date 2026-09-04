@@ -6,8 +6,6 @@ import 'aos/dist/aos.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import '../styles/main.css';
-import guargarima1 from '../assets/guar garima -1.png';
-import guarHYTECH from '../assets/guar HYTECH.png';
 import KANAKGUWAR from '../assets/KANAK GUWAR.png';
 
 const GuarProductPage = () => {
@@ -18,18 +16,19 @@ const GuarProductPage = () => {
 
   const guarProducts = [
     {
-      id: 1, name: 'KANAK GUWAR', image: KANAKGUWAR, description: [
-        'Plant height 95-100 cms ',
-        'First picking on 45-50 days',
-        'Pod bearing in cluster from base',
-        'Plant unbranched ',
-        'Pod colour light green, Thin and smooth',
-        'Length of pod 10-14 cm',
-        'Purpose vegetables',
-        'Higher pod yield',
-
-      ]
-    }
+      id: 1,
+      name: 'KANAK',
+      image: KANAKGUWAR,
+      description: [
+        'Plant height 100-120 cm',
+        'Days to maturity 90-100',
+        'No. of pod / clustes 15-20',
+        'Pod length 6-7 cm',
+        'No of seeds / pod 7-8',
+        'Plant habit open & vigorous',
+        'High yield than other varieties',
+      ],
+    },
   ];
 
   return (

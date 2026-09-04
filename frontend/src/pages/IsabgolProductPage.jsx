@@ -17,27 +17,29 @@ const IsabgolProductPage = () => {
 
   const isabgolProducts = [
     {
-      id: 1, name: 'SONA ISABGOL', image: SONAISABGOL, description: [
-        'Plant height 32-35 cms ',
-        'More No. of seed per spike ',
+      id: 1,
+      name: 'SONA',
+      image: SONAISABGOL,
+      description: [
+        'Plant height 32-39 cm',
+        'More spike / plant',
         'Av. spike length 4.5-5 cm',
-        'Profuse branching',
-        'Seed husk thin, boat shaped, white, Translucent, odorless  with mucilaginous taste. ',
-        'Maturity days 105-110',
-
-      ]
+        'Maturity days 110-115',
+      ],
     },
     {
-      id: 2, name: 'Utsav-99', image: Utsav99, description: [
-        'Plant height 32-35 cms ',
-        'More No. of seed per spike ',
-        'Av. spike length 4.5-5 cm',
+      id: 2,
+      name: 'UTSAV-99',
+      image: Utsav99,
+      description: [
+        'Plant height 32-35 cms',
         'Profuse branching',
-        'Seed husk thin, boat shaped, white, Translucent, odorless  with mucilaginous taste. ',
+        'Av. spike length 4.5-5 cm',
+        'More No. of seed per spike',
+        'Seed husk thin, boat shaped, white, Translucent, odorless with mucilaginous taste.',
         'Maturity days 105-110',
-
-      ]
-    }
+      ],
+    },
   ];
 
   return (

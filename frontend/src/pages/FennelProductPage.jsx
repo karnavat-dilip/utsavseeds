@@ -16,15 +16,14 @@ const FennelProductPage = () => {
 
   const fennelProducts = [
     {
-      id: 1, name: 'FENEL GAURI', image: FENELGAURI, description: [
-        'More productive branches from base ',
-        'High No. of umbels & umbeletes ',
-        'Bumper yield ',
-        'High oil content ',
-        'Days to maturity 155-160 ',
-        'Tolerant to sugary secretion & blight disease ',
+      id: 1, name: 'GAURI', image: FENELGAURI, description: [
+        'More productive branches from base',
+        'High No. of umbels & umbeletes',
+        'High oil content',
+        'Days to maturity 150-155',
+        'Bumper yield',
+        'Tolerant to sugary secretion & blight disease',
         'Suitable for transplanting & direct sowing',
-
       ]
     }
   ];

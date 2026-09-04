@@ -42,7 +42,7 @@ const ClusterBeanProductPage = () => {
                 'Pod bearing in cluster from base',
                 'Plant unbranched',
                 'Pod colour light green, Thin and smooth ',
-                'Length of pod 10-14 cm ',
+                'Length of pod 12-16 cm ',
                 'Purpose vegetables ',
                 'Higher pod yield',
             ]
@@ -126,6 +126,13 @@ const ClusterBeanProductPage = () => {
 };
 
 export default ClusterBeanProductPage;
+
+
+
+
+
+
+
 
 
 

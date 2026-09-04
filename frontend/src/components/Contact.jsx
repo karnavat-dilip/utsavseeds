@@ -28,7 +28,7 @@ const Contact = () => {
 
     // Use environment variable or detect based on environment
     const API_URL = process.env.REACT_APP_API_URL || 
-      (process.env.NODE_ENV === 'production' ? '/contact' : 'http://localhost:5000/contact');
+      (process.env.NODE_ENV === 'production' ? 'https://utsavseeds.vercel.app/api/contact' : 'http://localhost:5000/contact');
     
     try {
       const response = await fetch(API_URL, {

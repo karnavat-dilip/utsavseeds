@@ -16,27 +16,31 @@ const BlackGramProductPage = () => {
 
   const blackGramProducts = [
     {
-      id: 1, name: 'URJA 77 UDAD', image: URJA77UDAD, description: [
-        'Plant height (65-70cm) & determinate ',
-        'Plant habit vigorous with branches ',
-        'Length of pod 4-5 cm ',
-        'No. of seeds / pod 5-7 ',
-        'Maturity at 75-80 days ',
-        'Seed size bold ',
-        'Seed colour black glossy ',
+      id: 1,
+      name: 'URJA',
+      image: URJA,
+      description: [
+        'Plant habit determinate',
+        'Seed colour dull black',
+        'Seed size bold',
+        'Length of pod 4-5 cm',
+        'Maturity at 68-70 days',
         'Moderate tolerant to YVM',
-      ]
+      ],
     },
     {
-      id: 2, name: 'URJA', image: URJA, description: ['Plant height (65-70cm) & determinate ',
-        'Plant habit vigorous with branches ',
-        'Length of pod 4-5 cm ',
-        'No. of seeds / pod 5-7 ',
-        'Maturity at 75-80 days ',
-        'Seed size bold ',
-        'Seed colour black glossy ',
-        'Moderate tolerant to YVM',]
-    }
+      id: 2,
+      name: 'URJA-77',
+      image: URJA77UDAD,
+      description: [
+        'Plant habit determinate',
+        'Seed colour dull black',
+        'Seed size bold',
+        'Length of pod 4-5 cm',
+        'Maturity at 68-70 days',
+        'Moderate tolerant to YVM',
+      ],
+    },
   ];
 
   return (

@@ -17,25 +17,30 @@ const BajraFodderProductPage = () => {
 
   const fodderProducts = [
     {
-      id: 1, name: 'FOODER BAJARA EVERGREEN NO -1', image: FOODERBAJARAEVERGREENNO1, description: [
-        'Multicut forage millet hybrid ',
-        'High forage yield in every cut ',
-        'Adoptable to environmental stress ',
-        'High crude protein & High digestibility ',
-        'Increase milk production ',
+      id: 1,
+      name: 'EVERGREEN NO.1',
+      image: FOODERBAJARAEVERGREENNO1,
+      description: [
+        'Multicut forage millet hybrid',
+        'High forage yield in every cut',
+        'High crude protein & High digestibility',
+        'Adoptable to environmental stress',
+        'Increase milk production',
         'Suitable for kharif, rabi & spring season',
-
-      ]
+      ],
     },
     {
-      id: 2, name: 'FOODER BAJARA JUDWA NO -1', image: FOODERBAJARAJUDWANO1, description: [
-        'Multicut forage millet variety ',
-        'Fast re - growth & 3 to 4 cuttings',
-        'profuse tillering ',
-        'Higher green fodder yield Peas',
+      id: 2,
+      name: 'JUDWA NO.1',
+      image: FOODERBAJARAJUDWANO1,
+      description: [
+        'Multicut forage millet variety',
+        'Fast re-growth & 5 to 7 cuttings',
+        'Higher green fodder yield',
+        'Profuse tillering',
         'Suitable for kharif, rabi & spring season',
-      ]
-    }
+      ],
+    },
   ];
 
   return (

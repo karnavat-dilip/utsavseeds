@@ -43,7 +43,7 @@ import UTSAV3551MAIZE from '../assets/UTSAV 3551 MAIZE.png'
 import utsav8888HYJOWAR from '../assets/utsav 8888 HY JOWAR.png'
 import UTSAVCUMIN from '../assets/UTSAV CUMIN.png'
 import UTSAV_SEEDS20KGBAG20243D from '../assets/UTSAV SEEDS 20 KG BAG 2024 3D.png'
-import utsavakshaysuper20kg from '../assets/utsav-akshay super 20 kg......jpg'
+import aksharUtsav from '../assets/akshar_utsav.jpg'
 import utsavgroundnut20kg from '../assets/utsav-groundnut 20 kg. back.....jpg'
 import VARUNSTARGEHU from '../assets/VARUN STAR GEHU.png'
 import VRUNDACUMIN from '../assets/VRUNDA CUMIN.png'
@@ -267,8 +267,8 @@ import VRUNDACUMIN from '../assets/VRUNDA CUMIN.png'
       },
       {
         id: 43,
-        name: 'utsav-akshay super 20 kg',
-        image: utsavakshaysuper20kg,
+        name: 'AKSHAR PIGEON PEA',
+        image: aksharUtsav,
       },
       {
         id: 44,

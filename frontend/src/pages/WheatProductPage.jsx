@@ -18,32 +18,31 @@ const WheatProductPage = () => {
   const wheatProducts = [
     {
       id: 1,
-      name: 'GEHU VARUN',
+      name: 'VARUN',
       image: GEHUVARUN,
       description: [
-        'Maturity (Days) : 115-120 ',
-        'Plant Hight : 90 to 95 cms ',
-        'Tillering ability : High ',
-        'Thick & long panicles ',
-        'Shiny amber coloured medium bold seeds ',
-        'Resistant to logging ',
+        'Maturity (Days) : 115-120',
+        'Plant Hight : 90 to 95 cms',
+        'Shiny amber coloured medium bold seeds',
         'High yielding capacity',
+        'Tillering ability : High',
+        'Resistant to logging',
+        'Thick & long panicles',
         'Ideal for chapatti making',
-
       ]
     },
     {
       id: 2,
-      name: 'VARUN STAR GEHU',
+      name: 'VARUN STAR',
       image: VARUNSTARGEHU,
       description: [
-        'Maturity (Days) : 115-120 ',
-        'Plant Hight : 90 to 95 cms ',
-        'Tillering ability : High ',
-        'Thick & long panicles ',
-        'Shiny amber coloured medium bold seeds ',
-        'Resistant to logging ',
-        'High yielding capacity',
+        'Maturity (days) : 120-125',
+        'Long spike with more grain',
+        'Plant Hight : 78 to 83 cm',
+        'Profuse tillering',
+        'Amber coloured medium bold grain',
+        'Higher grain and fodder yield',
+        'Logging resistant',
         'Ideal for chapatti making',
       ]
     }

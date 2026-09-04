@@ -5,7 +5,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import UG_24_37 from '../assets/UG24-37.jpg'
+import UG_24_37 from '../assets/UG24-37.jpg';
+import utsavgroundnut20kg from '../assets/utsav-groundnut 20 kg. back.....jpg';
 import '../styles/main.css';
 
 const GroundnutProductPage = () => {
@@ -17,34 +18,66 @@ const GroundnutProductPage = () => {
   const groundnutProducts = [
     {
       id: 1,
-      name: 'UG-24',
-      image: UG_24_37,
-      description: [
-        'Plant habit erect type & early maturity ',
-        'Semi-dwarf spanish bunch type variety ',
-        'High harvest index & wider adaptiblity ',
-        'Kernel shape spheroide with light rose testa colour ',
-        'Higher oil content (50.80%)',
-        'Days to maturity 100-105 ',
-        'Rust & Leaf spot tolerant',
-      ]
-    },
-    {
-      id: 2,
       name: 'UG-37',
       image: UG_24_37,
       description: [
-        'Erect growth plant habit & spanish bunch variety ',
-        'Sequantial branching & semi-dwarf height ',
-        'Compact pod setting with more no. of 3 seeded pod ',
-        'Shelling trounout 72 to 75% ',
-        'Kernel shape bold spheroide with rose testa colour ',
-        'Oil content (48%) ',
-        'Maturity days K-100 & summer 110 ',
+        'Erect growth plant habit & spanish bunch variety',
+        'Kernel shape bold spheroide with rose testa colour',
+        'Compact pod setting with more no. of 3 seeded pod',
+        'Maturity days K-100 & summer 110',
+        'Sequantial branching & semi-dwarf height',
+        'Oil content (48%)',
+        'Shelling trounout 72 to 75%',
         'Rust & Leaf spot tolerant & drought tolerant',
-        
-      ]
-    }
+      ],
+    },
+    {
+      id: 2,
+      name: 'UG-24',
+      image: UG_24_37,
+      description: [
+        'Plant habit erect type & early maturity',
+        'Semi-dwarf spanish bunch type variety',
+        'Days to maturity 100-105',
+        'Kernel shape spheroide with light rose testa colour',
+        'Higher oil content (50.80%)',
+        'High harvest index & wider adaptiblity',
+        'Rust & Leaf spot tolerant',
+      ],
+    },
+    {
+      id: 3,
+      name: 'UG-20',
+      image: utsavgroundnut20kg,
+      description: [
+        'Plant habit semi-spreating erect type',
+        'Testa colour tan & uniform',
+        'Kernel shape bold cylindrical',
+        'Pod size medium',
+        'Oil content (50.7%)',
+        'Maturity days K-105 to 110',
+        'Rust & Leaf spot tolerant',
+      ],
+    },
+    {
+      id: 4,
+      name: 'UG-10',
+      image: utsavgroundnut20kg,
+      description: [
+        'Virginia spreding type variety',
+        'High yielding with medium maturity (110-120 days)',
+        'Shelling percentage 72.5',
+        'Testa colour uniform & tan',
+        'Av. No. of seeds two (>60%)',
+        'No. of branches : High',
+        'Maturity days K-110 to 120',
+        'Pod size medium',
+        'Kernel shape bold cylindrical',
+        'Kernel size medium',
+        'Oil content high (49.5%)',
+        'Rust & Leaf spot tolerant',
+      ],
+    },
   ];
 
   return (

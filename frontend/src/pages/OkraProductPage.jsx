@@ -17,25 +17,28 @@ const OkraProductPage = () => {
 
   const okraProducts = [
     {
-      id: 1, name: 'OKRA MUSKAN', image: okramuskan, description: [
-        'First Picking : 45-50 days from sowing',
+      id: 1,
+      name: 'MUSKAN',
+      image: okramuskan,
+      description: [
+        'First Picking : 40-45 days from sowing',
         'Fruit dark green, shiny, smooth attaractive fruit',
-        'Fruit length 10-12 cms',
         'High yielding hybrid with best quality fruits',
-        'Resistant to YVM and tolerant to sucking pest',
-
-      ]
+        'Fruit length 10-12 cm',
+        'Resistant to YVM and tolerant to sucking pests',
+      ],
     },
     {
-      id: 2, name: 'OKRA PRATAP', image: okrapratap, description: [
+      id: 2,
+      name: 'PRATAP',
+      image: okrapratap,
+      description: [
         'First Picking : 45-50 days from sowing',
-        'Fruit dark green, shiny, smooth attaractive fruit',
-        'Fruit length 10-12 cms',
-        'High yielding hybrid with best quality fruits',
-        'Resistant to YVM and tolerant to sucking pest',
-
-      ]
-    }
+        'Resistant to YVM and tolerant to sucking pests',
+        'Fruit length 10-15 cm',
+        'Fruit dark green, prolic bearing',
+      ],
+    },
   ];
 
   return (

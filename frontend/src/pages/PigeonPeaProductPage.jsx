@@ -6,57 +6,29 @@ import 'aos/dist/aos.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import '../styles/main.css';
-import UTSAV1121MAIZE from '../assets/UTSAV 1121 MAIZE.png';
-import UTSAV3351MAIZEWHITE from '../assets/UTSAV 3351 MAIZE WHITE.png';
-import UTSAV3551MAIZE from '../assets/UTSAV 3551 MAIZE.png';
+import aksharImage from '../assets/akshar_utsav.jpg';
 
-const MaizeProductPage = () => {
+const PigeonPeaProductPage = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
     window.scrollTo(0, 0);
   }, []);
 
-  const maizeProducts = [
+  const pigeonPeaProducts = [
     {
       id: 1,
-      name: 'UTSAV-1121',
-      image: UTSAV1121MAIZE,
+      name: 'AKSHAR',
+      image: aksharImage,
       description: [
-        'Suitable for kharif & rabi season',
-        'Duration : 90-100 days',
-        'Highly stress and drought tolerant',
-        'Attractive yellow orange medium bold grain',
-        'Uniform, long & attractive cob with good tip filling',
-        'Stay green plant hence good fodder.',
-      ],
-    },
-    {
-      id: 2,
-      name: 'UTSAV-3551',
-      image: UTSAV3551MAIZE,
-      description: [
-        'Medium duration corn',
-        'Uniform and attractive, cylindrical cobs',
-        'Stay green at harvest hence good fodder.',
-        'High stress / drought tolerance',
-        'Grain size medium bold with yellow orange colour',
-        'Excellent chapatti quality',
-        'Average shelling ratio 80-82%',
-        'Days to maturity 100-110',
-      ],
-    },
-    {
-      id: 3,
-      name: 'UTSAV-3351 (WHITE)',
-      image: UTSAV3351MAIZEWHITE,
-      description: [
-        'Duration 90-95 days.',
-        'Suitable for both kharif & rabi season',
-        'Medium bold, creamy white grain.',
-        'Logging resistant.',
-        'Uniform and attractive cylindrical cobs',
-        'Stay green hence good fodder quality',
-        'Excellent for food',
+        'Growth habit spreding type',
+        'Good productive branching',
+        'Highly tolerant to wilt',
+        'Flower colour yellow',
+        'Grain colour white & bold',
+        'Maturity duration 155-175 days',
+        'Plant height 210-220 cm',
+        'Very good dal quality',
+        'Sweet green pod',
       ],
     },
   ];
@@ -64,17 +36,16 @@ const MaizeProductPage = () => {
   return (
     <div className="page-wrapper">
       <Navbar />
-      <section className="page-hero-section" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80)' }}>
+      <section className="page-hero-section" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80)' }}>
         <div className="page-hero-overlay"></div>
         <div className="container">
-          
           <motion.h1
             className="page-title-large"
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            Maize (Corn) Seeds Supplier in India
+            Pigeon Pea (Tur/Arhar) Seeds Supplier in India
           </motion.h1>
         </div>
       </section>
@@ -82,13 +53,34 @@ const MaizeProductPage = () => {
         <div className="container">
           <div className="product-detail-page-content">
             <div className="product-detail-main-content">
-              <motion.h2 className="product-detail-main-title" data-aos="fade-up" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-                Leading Producer of Maize Seeds in India
+              <motion.h2
+                className="product-detail-main-title"
+                data-aos="fade-up"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+              >
+                Leading Producer of Pigeon Pea Seeds in India
               </motion.h2>
-             
-              <motion.div className="product-detail-showcase" data-aos="fade-up" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }}>
-                {maizeProducts.map((product, index) => (
-                  <motion.div key={product.id} className="product-detail-card" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}>
+
+              <motion.div
+                className="product-detail-showcase"
+                data-aos="fade-up"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+              >
+                {pigeonPeaProducts.map((product, index) => (
+                  <motion.div
+                    key={product.id}
+                    className="product-detail-card"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
+                  >
                     <div className="product-detail-card-inner">
                       <div className="product-detail-image-wrapper">
                         <img src={product.image} alt={product.name} className="product-detail-image" />
@@ -107,7 +99,14 @@ const MaizeProductPage = () => {
               </motion.div>
             </div>
             <div className="product-detail-sidebar">
-              <motion.div className="sidebar-widget product-sidebar-widget" data-aos="fade-left" initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+              <motion.div
+                className="sidebar-widget product-sidebar-widget"
+                data-aos="fade-left"
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+              >
                 <h3 className="sidebar-widget-title product-sidebar-title">Other Seeds Categories</h3>
                 <ul className="sidebar-links-list">
                   <li><Link to="/products/cereals">Cereal Seeds</Link></li>
@@ -118,8 +117,15 @@ const MaizeProductPage = () => {
                   <li><Link to="/products/fodder">Fodder Seeds</Link></li>
                 </ul>
               </motion.div>
-              
-              <motion.div className="sidebar-widget product-sidebar-widget" data-aos="fade-left" initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }}>
+
+              <motion.div
+                className="sidebar-widget product-sidebar-widget"
+                data-aos="fade-left"
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.3 }}
+              >
                 <h3 className="sidebar-widget-title product-sidebar-title">Contact Details</h3>
                 <div className="contact-details-list">
                   <div className="contact-detail-item"><span className="contact-icon">📞</span><a href="tel:+919426578791">+91-9426578791</a></div>
@@ -137,6 +143,4 @@ const MaizeProductPage = () => {
   );
 };
 
-export default MaizeProductPage;
-
-
+export default PigeonPeaProductPage;

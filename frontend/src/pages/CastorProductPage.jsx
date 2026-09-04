@@ -19,93 +19,104 @@ const CastorProductPage = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const castorProducts = [
+  const doubleBloomHybridDesc = [
+    'Duration 190 to 200 days',
+    'Red stem, short node, double bloom hybrid',
+    'More productive branches more spikes',
+    'Spike long & semi compact with bold semi-spiny capsule',
+    'Short internode plant bearing more branches',
+    'Highly resistant to wilt',
+    'High oil percentage',
+  ];
 
+  const tripleBloomHybridDesc = [
+    'Days to maturity 180 to 220',
+    'Red stem, Triple bloom hybrid',
+    'Medium spike with medium bold, spiny capsule',
+    'Nature of Spike Semi compact',
+    'Resistant to wilt and Root rot.',
+    'High oil percentage',
+  ];
+
+  const castorProducts = [
     {
       id: 1,
       name: 'CASTOR JAY+',
       image: castorjay,
-      description: [
-        'Duration 180 to 190 days',
-        'Red stem, short node, double bloom hybrid ',
-        'More productive branches more spikes ',
-        'Spike long & semi compact with bold semi - spiny capsule ',
-        'Short internode plant bearing more branches',
-        'Highly resistant to wilt ',
-        'High oil percentage'
-      ]
+      description: doubleBloomHybridDesc,
     },
     {
       id: 2,
-      name: 'CASTOR RAJ',
-      image: CASTORRAJ,
-      description: [
-        'Duration 180 to 190 days',
-        'Red stem, short node, double bloom hybrid ',
-        'More productive branches more spikes ',
-        'Spike long & semi compact with bold semi - spiny capsule ',
-        'Short internode plant bearing more branches',
-        'Highly resistant to wilt ',
-        'High oil percentage'
-
-      ]
+      name: 'CASTOR UTSAV-333',
+      image: CASTORUTSAV333,
+      description: doubleBloomHybridDesc,
     },
     {
       id: 3,
-      name: 'CASTOR UTSAV -333',
+      name: 'CASTOR TILAK',
       image: CASTORUTSAV333,
-      description: [
-       'Duration 180 to 190 days',
-        'Red stem, short node, double bloom hybrid ',
-        'More productive branches more spikes ',
-        'Spike long & semi compact with bold semi - spiny capsule ',
-        'Short internode plant bearing more branches',
-        'Highly resistant to wilt ',
-        'High oil percentage'
-      ]
+      description: doubleBloomHybridDesc,
     },
     {
       id: 4,
-      name: 'CASTOR YUVRAJ',
-      image: castoryuvraj,
-      description: [
-        'Duration 180 to 190 days',
-        'Red stem, short node, double bloom hybrid ',
-        'More productive branches more spikes ',
-        'Spike long & semi compact with bold semi - spiny capsule ',
-        'Short internode plant bearing more branches',
-        'Highly resistant to wilt ',
-        'High oil percentage'
-      ]
+      name: 'CASTOR RAJ',
+      image: CASTORRAJ,
+      description: tripleBloomHybridDesc,
     },
     {
       id: 5,
-      name: 'CASTOR Pokhraj',
-      image: Pukhraj,
-      description: [
-       'Duration 180 to 190 days',
-        'Red stem, short node, double bloom hybrid ',
-        'More productive branches more spikes ',
-        'Spike long & semi compact with bold semi - spiny capsule ',
-        'Short internode plant bearing more branches',
-        'Highly resistant to wilt ',
-        'High oil percentage'
-      ]
+      name: 'CASTOR RAJ+',
+      image: CASTORRAJ,
+      description: tripleBloomHybridDesc,
     },
     {
       id: 6,
+      name: 'CASTOR PUKHRAJ',
+      image: Pukhraj,
+      description: tripleBloomHybridDesc,
+    },
+    {
+      id: 7,
+      name: 'CASTOR YUVRAJ',
+      image: castoryuvraj,
+      description: [
+        'Red stem, short internode, double bloom hybrid',
+        'Very long compact spike with bold, spiny capsule',
+        'Days of maturity 200 to 210 days',
+        'Premium quality high yielding hybrid',
+        'Suitable for late sowing',
+        'Resistant to wilt and root rot.',
+        'High oil percentage',
+      ],
+    },
+    {
+      id: 8,
+      name: 'CASTOR TEJASVI',
+      image: castoryuvraj,
+      description: [
+        'Red stem, short internode, double bloom hybrid',
+        'Very long compact spike with bold, spiny capsule',
+        'Days of maturity 180 to 200 days',
+        'Premium quality high yielding hybrid',
+        'Suitable for Early and late sowing',
+        'Resistant to wilt and root rot.',
+        'High oil percentage',
+      ],
+    },
+    {
+      id: 9,
       name: 'CASTOR UTSAV-2',
       image: castorutsav2,
       description: [
-        'Green stem, short internode, triple bloom hybrid ',
+        'Green stem, short internode, triple bloom hybrid',
         'More productive branches, more yield',
-        'Semi compact and long spike ',
-        'Capsule medium bold & spiny ',
-        'Suitable for less irrigated or rainfed areas ',
+        'Capsule medium bold & spiny',
+        'Semi compact and long spike',
+        'Duration 170 to 180 days',
         'High yielding hybrid among green stem segment',
-        'Duration 170 to 180 days ',
-        'Highly resistant to wilt disease'
-      ]
+        'Suitable for less irrigated or rainfed areas',
+        'Highly resistant to wilt disease',
+      ],
     },
   ];
 
