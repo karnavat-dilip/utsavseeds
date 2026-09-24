@@ -8,7 +8,7 @@ import '../styles/main.css';
 const Footer = () => {
   const socialMediaLinks = [
     { name: 'Facebook', icon: FaFacebook, url: 'https://www.facebook.com/utsav.seeds.3', color: '#1877F2' },
-    { name: 'YouTube', icon: FaYoutube, url: 'https://www.youtube.com/@utsavseedspvtltd4157', color: '#FF0000' },
+    { name: 'YouTube', icon: FaYoutube, url: 'https://www.youtube.com/@UTSAVSEEDSPVTLTD', color: '#FF0000' },
     { name: 'WhatsApp', icon: FaWhatsapp, url: 'https://wa.me/919426578791', color: '#25D366' },
   ];
 
